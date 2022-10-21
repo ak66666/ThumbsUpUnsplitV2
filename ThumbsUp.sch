@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 616A381E
-P 3600 3750
-F 0 "U1" H 3600 1861 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3600 1770 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 3750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 3750 50  0001 C CNN
-	1    3600 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR014
 U 1 1 616A6574
 P 3500 1550
@@ -59,12 +48,7 @@ F 3 "~" H 4550 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 4350 4200 4350
-Connection ~ 4200 4350
-Wire Wire Line
 	4200 4350 4100 4350
-Wire Wire Line
-	3050 5550 3500 5550
 $Comp
 L Device:R_Small R2
 U 1 1 616B7A1A
@@ -353,9 +337,6 @@ D-
 Text GLabel 7300 2350 2    50   Input ~ 0
 D+
 Wire Wire Line
-	3500 5550 3600 5550
-Connection ~ 3500 5550
-Wire Wire Line
 	3700 1950 3600 1950
 Text GLabel 4200 3750 2    50   Input ~ 0
 ROW0
@@ -461,7 +442,6 @@ F 3 "" H 8550 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3700 1550 3700 1950
-Connection ~ 3700 1950
 $Comp
 L power:VCC #PWR015
 U 1 1 61D5A9CA
@@ -558,8 +538,6 @@ F 3 "" H 4750 4350 50  0001 C CNN
 	1    4750 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 4350 4750 4350
 NoConn ~ 7300 2450
 NoConn ~ 7300 2050
 $Comp
@@ -590,7 +568,7 @@ U 1 1 61FB95FB
 P 1300 6750
 F 0 "MX1" H 1333 6973 60  0000 C CNN
 F 1 "SwESC" H 1333 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 675 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 675 6725 60  0001 C CNN
 F 3 "" H 675 6725 60  0001 C CNN
 	1    1300 6750
 	1    0    0    -1  
@@ -601,7 +579,7 @@ U 1 1 61FB9608
 P 2000 6750
 F 0 "MX4" H 2033 6973 60  0000 C CNN
 F 1 "SwQ" H 2033 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 1375 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1375 6725 60  0001 C CNN
 F 3 "" H 1375 6725 60  0001 C CNN
 	1    2000 6750
 	1    0    0    -1  
@@ -612,7 +590,7 @@ U 1 1 61FB9615
 P 1300 7550
 F 0 "MX2" H 1333 7773 60  0000 C CNN
 F 1 "SwTAB" H 1333 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 675 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 675 7525 60  0001 C CNN
 F 3 "" H 675 7525 60  0001 C CNN
 	1    1300 7550
 	1    0    0    -1  
@@ -623,7 +601,7 @@ U 1 1 61FB962F
 P 2700 6750
 F 0 "MX7" H 2733 6973 60  0000 C CNN
 F 1 "SwW" H 2733 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2075 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2075 6725 60  0001 C CNN
 F 3 "" H 2075 6725 60  0001 C CNN
 	1    2700 6750
 	1    0    0    -1  
@@ -634,7 +612,7 @@ U 1 1 61FB963C
 P 3400 6750
 F 0 "MX11" H 3433 6973 60  0000 C CNN
 F 1 "SwE" H 3433 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2775 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2775 6725 60  0001 C CNN
 F 3 "" H 2775 6725 60  0001 C CNN
 	1    3400 6750
 	1    0    0    -1  
@@ -645,7 +623,7 @@ U 1 1 61FB9649
 P 2700 7550
 F 0 "MX8" H 2733 7773 60  0000 C CNN
 F 1 "SwS" H 2733 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2075 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2075 7525 60  0001 C CNN
 F 3 "" H 2075 7525 60  0001 C CNN
 	1    2700 7550
 	1    0    0    -1  
@@ -656,7 +634,7 @@ U 1 1 61FB9656
 P 3400 7550
 F 0 "MX12" H 3433 7773 60  0000 C CNN
 F 1 "SwD" H 3433 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2775 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2775 7525 60  0001 C CNN
 F 3 "" H 2775 7525 60  0001 C CNN
 	1    3400 7550
 	1    0    0    -1  
@@ -667,7 +645,7 @@ U 1 1 61FB9663
 P 1300 8350
 F 0 "MX3" H 1333 8573 60  0000 C CNN
 F 1 "SwLCTL" H 1333 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 675 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 675 8325 60  0001 C CNN
 F 3 "" H 675 8325 60  0001 C CNN
 	1    1300 8350
 	1    0    0    -1  
@@ -678,7 +656,7 @@ U 1 1 61FB9670
 P 2000 8350
 F 0 "MX6" H 2033 8573 60  0000 C CNN
 F 1 "SwZ" H 2033 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 1375 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1375 8325 60  0001 C CNN
 F 3 "" H 1375 8325 60  0001 C CNN
 	1    2000 8350
 	1    0    0    -1  
@@ -689,7 +667,7 @@ U 1 1 61FB9696
 P 2700 8350
 F 0 "MX9" H 2733 8573 60  0000 C CNN
 F 1 "SwX" H 2733 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2075 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2075 8325 60  0001 C CNN
 F 3 "" H 2075 8325 60  0001 C CNN
 	1    2700 8350
 	1    0    0    -1  
@@ -700,7 +678,7 @@ U 1 1 61FB96A3
 P 3400 8350
 F 0 "MX13" H 3433 8573 60  0000 C CNN
 F 1 "SwC" H 3433 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2775 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2775 8325 60  0001 C CNN
 F 3 "" H 2775 8325 60  0001 C CNN
 	1    3400 8350
 	1    0    0    -1  
@@ -711,7 +689,7 @@ U 1 1 61FB96B0
 P 2700 9150
 F 0 "MX10" H 2733 9373 60  0000 C CNN
 F 1 "SwLWIN" H 2733 9299 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2075 9125 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2075 9125 60  0001 C CNN
 F 3 "" H 2075 9125 60  0001 C CNN
 	1    2700 9150
 	1    0    0    -1  
@@ -755,7 +733,7 @@ U 1 1 62015099
 P 8800 8200
 F 0 "MX21" H 8833 8423 60  0000 C CNN
 F 1 "SwB" H 8833 8349 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8175 8175 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8175 8175 60  0001 C CNN
 F 3 "" H 8175 8175 60  0001 C CNN
 	1    8800 8200
 	1    0    0    -1  
@@ -779,7 +757,7 @@ U 1 1 6201508C
 P 8100 8200
 F 0 "MX17" H 8133 8423 60  0000 C CNN
 F 1 "SwV" H 8133 8349 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 7475 8175 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7475 8175 60  0001 C CNN
 F 3 "" H 7475 8175 60  0001 C CNN
 	1    8100 8200
 	1    0    0    -1  
@@ -803,7 +781,7 @@ U 1 1 6201507F
 P 8800 7400
 F 0 "MX20" H 8833 7623 60  0000 C CNN
 F 1 "SwG" H 8833 7549 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8175 7375 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8175 7375 60  0001 C CNN
 F 3 "" H 8175 7375 60  0001 C CNN
 	1    8800 7400
 	1    0    0    -1  
@@ -827,7 +805,7 @@ U 1 1 62015072
 P 8100 7400
 F 0 "MX16" H 8133 7623 60  0000 C CNN
 F 1 "SwF" H 8133 7549 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 7475 7375 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7475 7375 60  0001 C CNN
 F 3 "" H 7475 7375 60  0001 C CNN
 	1    8100 7400
 	1    0    0    -1  
@@ -851,7 +829,7 @@ U 1 1 62015065
 P 8800 6600
 F 0 "MX19" H 8833 6823 60  0000 C CNN
 F 1 "SwT" H 8833 6749 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8175 6575 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8175 6575 60  0001 C CNN
 F 3 "" H 8175 6575 60  0001 C CNN
 	1    8800 6600
 	1    0    0    -1  
@@ -875,7 +853,7 @@ U 1 1 62015058
 P 8100 6600
 F 0 "MX15" H 8133 6823 60  0000 C CNN
 F 1 "SwR" H 8133 6749 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 7475 6575 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7475 6575 60  0001 C CNN
 F 3 "" H 7475 6575 60  0001 C CNN
 	1    8100 6600
 	1    0    0    -1  
@@ -916,7 +894,7 @@ U 1 1 61713053
 P 10150 8200
 F 0 "MX29" H 10183 8423 60  0000 C CNN
 F 1 "SwM" H 10183 8349 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 9525 8175 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9525 8175 60  0001 C CNN
 F 3 "" H 9525 8175 60  0001 C CNN
 	1    10150 8200
 	1    0    0    -1  
@@ -940,7 +918,7 @@ U 1 1 61713046
 P 9450 8200
 F 0 "MX25" H 9483 8423 60  0000 C CNN
 F 1 "SwN" H 9483 8349 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8825 8175 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8825 8175 60  0001 C CNN
 F 3 "" H 8825 8175 60  0001 C CNN
 	1    9450 8200
 	1    0    0    -1  
@@ -964,7 +942,7 @@ U 1 1 616E98B3
 P 10150 7400
 F 0 "MX28" H 10183 7623 60  0000 C CNN
 F 1 "SwJ" H 10183 7549 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 9525 7375 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9525 7375 60  0001 C CNN
 F 3 "" H 9525 7375 60  0001 C CNN
 	1    10150 7400
 	1    0    0    -1  
@@ -988,7 +966,7 @@ U 1 1 616E989E
 P 9450 7400
 F 0 "MX24" H 9483 7623 60  0000 C CNN
 F 1 "SwH" H 9483 7549 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8825 7375 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8825 7375 60  0001 C CNN
 F 3 "" H 8825 7375 60  0001 C CNN
 	1    9450 7400
 	1    0    0    -1  
@@ -1012,7 +990,7 @@ U 1 1 616E6A1E
 P 10150 6600
 F 0 "MX27" H 10183 6823 60  0000 C CNN
 F 1 "SwU" H 10183 6749 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 9525 6575 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9525 6575 60  0001 C CNN
 F 3 "" H 9525 6575 60  0001 C CNN
 	1    10150 6600
 	1    0    0    -1  
@@ -1036,7 +1014,7 @@ U 1 1 616E00A7
 P 9450 6600
 F 0 "MX23" H 9483 6823 60  0000 C CNN
 F 1 "SwY" H 9483 6749 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8825 6575 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8825 6575 60  0001 C CNN
 F 3 "" H 8825 6575 60  0001 C CNN
 	1    9450 6600
 	1    0    0    -1  
@@ -1093,7 +1071,7 @@ U 1 1 61FB9622
 P 2000 7550
 F 0 "MX5" H 2033 7773 60  0000 C CNN
 F 1 "SwA" H 2033 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 1375 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 1375 7525 60  0001 C CNN
 F 3 "" H 1375 7525 60  0001 C CNN
 	1    2000 7550
 	1    0    0    -1  
@@ -1512,7 +1490,7 @@ U 1 1 6261980F
 P 17000 6750
 F 0 "MX42" H 17033 6973 60  0000 C CNN
 F 1 "SwBKSP" H 17033 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 16375 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 16375 6725 60  0001 C CNN
 F 3 "" H 16375 6725 60  0001 C CNN
 	1    17000 6750
 	-1   0    0    -1  
@@ -1523,7 +1501,7 @@ U 1 1 62619815
 P 16300 6750
 F 0 "MX39" H 16333 6973 60  0000 C CNN
 F 1 "SwP" H 16333 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 15675 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 15675 6725 60  0001 C CNN
 F 3 "" H 15675 6725 60  0001 C CNN
 	1    16300 6750
 	-1   0    0    -1  
@@ -1534,7 +1512,7 @@ U 1 1 6261981B
 P 17000 7550
 F 0 "MX43" H 17033 7773 60  0000 C CNN
 F 1 "SwENTER" H 17033 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 16375 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 16375 7525 60  0001 C CNN
 F 3 "" H 16375 7525 60  0001 C CNN
 	1    17000 7550
 	-1   0    0    -1  
@@ -1545,7 +1523,7 @@ U 1 1 62619821
 P 15600 6750
 F 0 "MX35" H 15633 6973 60  0000 C CNN
 F 1 "SwO" H 15633 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14975 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14975 6725 60  0001 C CNN
 F 3 "" H 14975 6725 60  0001 C CNN
 	1    15600 6750
 	-1   0    0    -1  
@@ -1556,7 +1534,7 @@ U 1 1 62619827
 P 14900 6750
 F 0 "MX31" H 14933 6973 60  0000 C CNN
 F 1 "SwI" H 14933 6899 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14275 6725 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14275 6725 60  0001 C CNN
 F 3 "" H 14275 6725 60  0001 C CNN
 	1    14900 6750
 	-1   0    0    -1  
@@ -1567,7 +1545,7 @@ U 1 1 6261982D
 P 15600 7550
 F 0 "MX36" H 15633 7773 60  0000 C CNN
 F 1 "SwL" H 15633 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14975 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14975 7525 60  0001 C CNN
 F 3 "" H 14975 7525 60  0001 C CNN
 	1    15600 7550
 	-1   0    0    -1  
@@ -1578,7 +1556,7 @@ U 1 1 62619833
 P 14900 7550
 F 0 "MX32" H 14933 7773 60  0000 C CNN
 F 1 "SwK" H 14933 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14275 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14275 7525 60  0001 C CNN
 F 3 "" H 14275 7525 60  0001 C CNN
 	1    14900 7550
 	-1   0    0    -1  
@@ -1589,7 +1567,7 @@ U 1 1 62619839
 P 17000 8350
 F 0 "MX44" H 17033 8573 60  0000 C CNN
 F 1 "SwRCTRL" H 17033 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 16375 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 16375 8325 60  0001 C CNN
 F 3 "" H 16375 8325 60  0001 C CNN
 	1    17000 8350
 	-1   0    0    -1  
@@ -1600,7 +1578,7 @@ U 1 1 6261983F
 P 16300 8350
 F 0 "MX41" H 16333 8573 60  0000 C CNN
 F 1 "Sw?" H 16333 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 15675 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 15675 8325 60  0001 C CNN
 F 3 "" H 15675 8325 60  0001 C CNN
 	1    16300 8350
 	-1   0    0    -1  
@@ -1611,7 +1589,7 @@ U 1 1 62619845
 P 15600 8350
 F 0 "MX37" H 15633 8573 60  0000 C CNN
 F 1 "SwDOT" H 15633 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14975 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14975 8325 60  0001 C CNN
 F 3 "" H 14975 8325 60  0001 C CNN
 	1    15600 8350
 	-1   0    0    -1  
@@ -1622,7 +1600,7 @@ U 1 1 6261984B
 P 14900 8350
 F 0 "MX33" H 14933 8573 60  0000 C CNN
 F 1 "SwCOMMA" H 14933 8499 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14275 8325 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14275 8325 60  0001 C CNN
 F 3 "" H 14275 8325 60  0001 C CNN
 	1    14900 8350
 	-1   0    0    -1  
@@ -1633,7 +1611,7 @@ U 1 1 6261985D
 P 14900 9150
 F 0 "MX34" H 14933 9373 60  0000 C CNN
 F 1 "SwRALT" H 14933 9299 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14275 9125 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14275 9125 60  0001 C CNN
 F 3 "" H 14275 9125 60  0001 C CNN
 	1    14900 9150
 	-1   0    0    -1  
@@ -1644,7 +1622,7 @@ U 1 1 62619863
 P 15600 9150
 F 0 "MX38" H 15633 9373 60  0000 C CNN
 F 1 "SwMENU" H 15633 9299 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 14975 9125 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 14975 9125 60  0001 C CNN
 F 3 "" H 14975 9125 60  0001 C CNN
 	1    15600 9150
 	-1   0    0    -1  
@@ -1701,7 +1679,7 @@ U 1 1 6261988C
 P 16300 7550
 F 0 "MX40" H 16333 7773 60  0000 C CNN
 F 1 "SwCOLON" H 16333 7699 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 15675 7525 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 15675 7525 60  0001 C CNN
 F 3 "" H 15675 7525 60  0001 C CNN
 	1    16300 7550
 	-1   0    0    -1  
@@ -2113,7 +2091,7 @@ U 1 1 62882FE4
 P 8850 11000
 F 0 "MX22" H 8883 11223 60  0000 C CNN
 F 1 "SwLSHFT" H 8883 11149 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 8225 10975 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8225 10975 60  0001 C CNN
 F 3 "" H 8225 10975 60  0001 C CNN
 	1    8850 11000
 	-1   0    0    -1  
@@ -2124,7 +2102,7 @@ U 1 1 62882FEA
 P 8150 11000
 F 0 "MX18" H 8183 11223 60  0000 C CNN
 F 1 "SwLMOD" H 8183 11149 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 7525 10975 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7525 10975 60  0001 C CNN
 F 3 "" H 7525 10975 60  0001 C CNN
 	1    8150 11000
 	-1   0    0    -1  
@@ -2177,7 +2155,7 @@ U 1 1 62A1D5C7
 P 10600 11050
 F 0 "MX30" H 10633 11273 60  0000 C CNN
 F 1 "SwRMOD" H 10633 11199 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 9975 11025 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9975 11025 60  0001 C CNN
 F 3 "" H 9975 11025 60  0001 C CNN
 	1    10600 11050
 	-1   0    0    -1  
@@ -2188,7 +2166,7 @@ U 1 1 62A1D5CD
 P 9900 11050
 F 0 "MX26" H 9933 11273 60  0000 C CNN
 F 1 "SwRSHFT" H 9933 11199 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 9275 11025 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9275 11025 60  0001 C CNN
 F 3 "" H 9275 11025 60  0001 C CNN
 	1    9900 11050
 	-1   0    0    -1  
@@ -2410,33 +2388,25 @@ NoConn ~ 3150 12750
 $Comp
 L Connector:Conn_01x04_Female J17
 U 1 1 622DE716
-P 4100 11600
-F 0 "J17" V 3946 11748 50  0000 L CNN
-F 1 "Raiser_Female" V 4037 11748 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4100 11600 50  0001 C CNN
-F 3 "~" H 4100 11600 50  0001 C CNN
-	1    4100 11600
+P 9550 4100
+F 0 "J17" V 9396 4248 50  0000 L CNN
+F 1 "Raiser_Female" V 9487 4248 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 9550 4100 50  0001 C CNN
+F 3 "~" H 9550 4100 50  0001 C CNN
+	1    9550 4100
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J18
 U 1 1 622DE720
-P 4100 11750
-F 0 "J18" V 4162 11894 50  0000 L CNN
-F 1 "Raiser_Male" V 4253 11894 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4100 11750 50  0001 C CNN
-F 3 "~" H 4100 11750 50  0001 C CNN
-	1    4100 11750
+P 9550 4250
+F 0 "J18" V 9612 4394 50  0000 L CNN
+F 1 "Raiser_Male" V 9703 4394 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9550 4250 50  0001 C CNN
+F 3 "~" H 9550 4250 50  0001 C CNN
+	1    9550 4250
 	0    1    1    0   
 $EndComp
-NoConn ~ 3900 11400
-NoConn ~ 4000 11400
-NoConn ~ 4100 11400
-NoConn ~ 4200 11400
-NoConn ~ 3900 11950
-NoConn ~ 4000 11950
-NoConn ~ 4100 11950
-NoConn ~ 4200 11950
 Wire Wire Line
 	1450 6350 1450 8300
 Wire Wire Line
@@ -2503,7 +2473,7 @@ U 1 1 61FB96BD
 P 3400 9150
 F 0 "MX14" H 3433 9373 60  0000 C CNN
 F 1 "SwLALT" H 3433 9299 20  0000 C CNN
-F 2 "SwitchFootprints:MX-Alps-Choc-KS32-X-1U-NoLED" H 2775 9125 60  0001 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 2775 9125 60  0001 C CNN
 F 3 "" H 2775 9125 60  0001 C CNN
 	1    3400 9150
 	1    0    0    -1  
@@ -2548,4 +2518,149 @@ Wire Wire Line
 Connection ~ 14750 7500
 Wire Wire Line
 	14750 7500 14750 8300
+$Comp
+L 52559-1233:52559-1233 J19
+U 1 1 634DD7F1
+P 10900 3350
+F 0 "J19" H 11400 3615 50  0000 C CNN
+F 1 "52559-1233" H 11400 3524 50  0000 C CNN
+F 2 "525591233" H 11750 3450 50  0001 L CNN
+F 3 "" H 11750 3350 50  0001 L CNN
+F 4 "FFC & FPC Connectors 0.5 FPC ZIF 12Ckt Sn-Ag-Bi" H 11750 3250 50  0001 L CNN "Description"
+F 5 "5.55" H 11750 3150 50  0001 L CNN "Height"
+F 6 "538-52559-1233" H 11750 3050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/52559-1233?qs=Q7nJoqLg%252BZgmtCe8OD7vZw%3D%3D" H 11750 2950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 11750 2850 50  0001 L CNN "Manufacturer_Name"
+F 9 "52559-1233" H 11750 2750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10900 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10900 3850 0    50   Input ~ 0
+SCL
+Text GLabel 11900 3850 2    50   Input ~ 0
+SDA
+$Comp
+L power:VCC #PWR0101
+U 1 1 634EB4E1
+P 12050 4100
+F 0 "#PWR0101" H 12050 3950 50  0001 C CNN
+F 1 "VCC" H 12067 4273 50  0000 C CNN
+F 2 "" H 12050 4100 50  0001 C CNN
+F 3 "" H 12050 4100 50  0001 C CNN
+	1    12050 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11900 3950 12050 3950
+Wire Wire Line
+	12050 3950 12050 4100
+$Comp
+L power:GND #PWR0102
+U 1 1 6355E41C
+P 10750 4050
+F 0 "#PWR0102" H 10750 3800 50  0001 C CNN
+F 1 "GND" H 10755 3877 50  0000 C CNN
+F 2 "" H 10750 4050 50  0001 C CNN
+F 3 "" H 10750 4050 50  0001 C CNN
+	1    10750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4050 10750 3950
+Wire Wire Line
+	10750 3950 10900 3950
+Text GLabel 4200 3450 2    50   Input ~ 0
+SCL
+Text GLabel 4200 3550 2    50   Input ~ 0
+SDA
+Connection ~ 4200 4350
+Wire Wire Line
+	3050 5550 3500 5550
+Wire Wire Line
+	3500 5550 3600 5550
+Connection ~ 3500 5550
+Connection ~ 3700 1950
+Wire Wire Line
+	4650 4350 4750 4350
+Wire Wire Line
+	4450 4350 4200 4350
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 616A381E
+P 3600 3750
+F 0 "U1" H 3600 1861 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3600 1770 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 4450 3    50   Input ~ 0
+SDA
+Text GLabel 9450 4450 3    50   Input ~ 0
+SCL
+Text GLabel 9450 3900 1    50   Input ~ 0
+SCL
+Text GLabel 9550 3900 1    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0103
+U 1 1 6362B162
+P 9150 4550
+F 0 "#PWR0103" H 9150 4300 50  0001 C CNN
+F 1 "GND" H 9155 4377 50  0000 C CNN
+F 2 "" H 9150 4550 50  0001 C CNN
+F 3 "" H 9150 4550 50  0001 C CNN
+	1    9150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6362B3DF
+P 9150 3950
+F 0 "#PWR0104" H 9150 3700 50  0001 C CNN
+F 1 "GND" H 9155 3777 50  0000 C CNN
+F 2 "" H 9150 3950 50  0001 C CNN
+F 3 "" H 9150 3950 50  0001 C CNN
+	1    9150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 6362B8F1
+P 10000 4550
+F 0 "#PWR0105" H 10000 4400 50  0001 C CNN
+F 1 "VCC" H 10017 4723 50  0000 C CNN
+F 2 "" H 10000 4550 50  0001 C CNN
+F 3 "" H 10000 4550 50  0001 C CNN
+	1    10000 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 6362C88F
+P 10000 3750
+F 0 "#PWR0106" H 10000 3600 50  0001 C CNN
+F 1 "VCC" H 10017 3923 50  0000 C CNN
+F 2 "" H 10000 3750 50  0001 C CNN
+F 3 "" H 10000 3750 50  0001 C CNN
+	1    10000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3900 10000 3900
+Wire Wire Line
+	10000 3900 10000 3750
+Wire Wire Line
+	9650 4450 10000 4450
+Wire Wire Line
+	10000 4450 10000 4550
+Wire Wire Line
+	9350 3900 9150 3900
+Wire Wire Line
+	9150 3900 9150 3950
+Wire Wire Line
+	9350 4450 9150 4450
+Wire Wire Line
+	9150 4450 9150 4550
 $EndSCHEMATC
