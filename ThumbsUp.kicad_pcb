@@ -373,7 +373,7 @@
     (add_net VCC)
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555799)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555799)
     (at 241.528381 182.31109 22)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -413,7 +413,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555782)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555782)
     (at 172.994345 146.690649 112)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -453,7 +453,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6355587F)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 6355587F)
     (at 187.658765 161.138249 292)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -493,7 +493,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555868)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555868)
     (at 194.158765 177.638249 292)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -533,7 +533,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63541A25)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63541A25)
     (at 239.869616 319.672841 22)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -577,7 +577,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63541A3D)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63541A3D)
     (at 171.33558 284.0524 112)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -621,7 +621,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63541A55)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63541A55)
     (at 186 298.5 292)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -665,7 +665,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63541A6D)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63541A6D)
     (at 192.5 315 292)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -709,7 +709,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 635550C4)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 635550C4)
     (at 177.807813 222.177231 37)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -749,7 +749,7 @@
     )
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555A91)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555A91)
     (at 191.365031 93.278639 217)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -835,7 +835,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 217) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 6355596A)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 6355596A)
     (at 85.407015 87.665681 53)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -875,7 +875,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 6355593C)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 6355593C)
     (at 215.100744 87.512076 307)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -915,7 +915,7 @@
     )
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555496)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555496)
     (at 109.157264 93.31124 323)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1001,7 +1001,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 323) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555386)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555386)
     (at 94.382507 82.177663 323)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1087,7 +1087,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 323) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635552FE)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635552FE)
     (at 206.139788 82.145061 217)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1173,7 +1173,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 217) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 6355525F)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 6355525F)
     (at 150.158765 49.138249)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1213,7 +1213,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63555109)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63555109)
     (at 181.307813 98.677231 37)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1253,7 +1253,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 635550F2)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 635550F2)
     (at 118.920114 98.875833 323)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1293,7 +1293,7 @@
     )
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555E05)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555E05)
     (at 232.921502 185.033521 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1379,7 +1379,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555CF5)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555CF5)
     (at 180.44728 153.925548 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1465,7 +1465,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555BE5)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555BE5)
     (at 187.002895 170.151265 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1551,7 +1551,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555B19)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555B19)
     (at 193.55851 186.376983 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1637,7 +1637,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635559C5)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635559C5)
     (at 213.895568 187.327824 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -1723,7 +1723,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555953)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555953)
     (at 211.600744 211.012076 307)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -1763,7 +1763,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555925)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555925)
     (at 81.907015 211.165681 53)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -1803,7 +1803,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63555823)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63555823)
     (at 52.395205 182.503276 338)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1843,7 +1843,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 635557DE)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 635557DE)
     (at 120.197799 146.824591 248)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1883,7 +1883,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 635557C7)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 635557C7)
     (at 113.658765 163.138249 248)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1923,7 +1923,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 635557B0)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 635557B0)
     (at 106.844008 179.138249 248)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1963,7 +1963,7 @@
     )
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635556B6)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635556B6)
     (at 113.005223 153.948974 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2049,7 +2049,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555672)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555672)
     (at 168.726174 174.299936 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2135,7 +2135,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355562E)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355562E)
     (at 60.531 185.056947 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2221,7 +2221,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555562)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555562)
     (at 79.556934 187.35125 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2307,7 +2307,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355551E)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355551E)
     (at 99.893992 186.400409 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2393,7 +2393,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635554DA)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635554DA)
     (at 175.281789 190.525653 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2479,7 +2479,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555452)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555452)
     (at 131.281944 158.097644 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2565,7 +2565,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355540E)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6355540E)
     (at 118.170713 190.549079 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2651,7 +2651,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635553CA)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635553CA)
     (at 124.726328 174.323362 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2737,7 +2737,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555342)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63555342)
     (at 162.170559 158.074218 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2823,7 +2823,7 @@
     (pad 2 smd rect (at 8.275 -3.75 202) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635552BA)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635552BA)
     (at 106.449607 170.174691 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -2909,7 +2909,7 @@
     (pad 2 smd rect (at 8.275 -3.75 338) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63555248)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63555248)
     (at 95.742717 221.50122 53)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -2949,7 +2949,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63555231)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63555231)
     (at 146.658765 172.638249)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -2989,7 +2989,7 @@
     )
   )
 
-  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 63555137)
+  (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 5A19A429) (tstamp 63555137)
     (at 191.716901 226.026163 127)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -3029,7 +3029,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 635550DB)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 635550DB)
     (at 115.420114 222.375833 323)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3069,7 +3069,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63541781)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63541781)
     (at 105.185243 316.5 248)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3113,7 +3113,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63541769)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63541769)
     (at 112 300.5 248)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3157,7 +3157,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63541699)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63541699)
     (at 118.557578 284.193834 248)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3201,7 +3201,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 63541681)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 63541681)
     (at 50.73644 319.865027 338)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -3558,7 +3558,7 @@
     )
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635358AF)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635358AF)
     (at 259.387531 293.236294 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -3648,7 +3648,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635357E3)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635357E3)
     (at 252.831915 277.010577 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -3738,7 +3738,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63535717)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63535717)
     (at 246.2763 260.784859 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -3828,7 +3828,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6353564B)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6353564B)
     (at 243.733056 303.875252 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -3918,7 +3918,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6353557F)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6353557F)
     (at 237.177441 287.649534 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4008,7 +4008,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635354B3)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635354B3)
     (at 230.621825 271.423817 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4098,7 +4098,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534D87)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534D87)
     (at 224.707122 306.169554 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4188,7 +4188,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534A57)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534A57)
     (at 218.151506 289.943837 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4278,7 +4278,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534B23)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534B23)
     (at 211.595891 273.71812 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4368,7 +4368,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534CBB)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534CBB)
     (at 205.681187 308.463857 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4458,7 +4458,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 635348BF)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 635348BF)
     (at 199.125572 292.23814 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4548,7 +4548,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534F1F)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63534F1F)
     (at 192.569957 276.012422 202)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4638,7 +4638,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 202) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBF19)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBF19)
     (at 84.453785 308.487283 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4728,7 +4728,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBED4)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBED4)
     (at 91.0094 292.261566 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4818,7 +4818,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBE8F)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBE8F)
     (at 97.565016 276.035848 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4908,7 +4908,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBE05)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBE05)
     (at 65.427851 306.192981 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -4998,7 +4998,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBDC0)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBDC0)
     (at 71.983466 289.967263 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5088,7 +5088,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63529ECA)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63529ECA)
     (at 78.539081 273.741546 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5178,7 +5178,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBD36)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBD36)
     (at 46.401916 303.898678 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5268,7 +5268,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6352911A)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6352911A)
     (at 52.957532 287.67296 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5358,7 +5358,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63521B73)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63521B73)
     (at 59.513147 271.447243 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5448,7 +5448,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBC67)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 634BBC67)
     (at 30.747441 293.25972 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5538,7 +5538,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 6352985D)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 6352985D)
     (at 37.303057 277.034003 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5628,7 +5628,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module keyswitches:Kailh_socket_PG1350_optional (layer F.Cu) (tedit 5DD50F3F) (tstamp 63521F43)
+  (module keyswitches:Kailh_socket_PG1350_optional locked (layer F.Cu) (tedit 5DD50F3F) (tstamp 63521F43)
     (at 43.858672 260.808286 338)
     (descr "Kailh \"Choc\" PG1350 keyswitch with optional socket mount")
     (tags kailh,choc)
@@ -5718,7 +5718,7 @@
     (pad "" np_thru_hole circle (at -5.5 0 338) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 634BBB68)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 634BBB68)
     (at 94.083952 358.862971 53)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
@@ -5762,7 +5762,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 634BBB08)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical locked (layer F.Cu) (tedit 59FED5CC) (tstamp 634BBB08)
     (at 190.058136 363.387914 127)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
