@@ -2372,13 +2372,13 @@ Wire Wire Line
 Wire Wire Line
 	16150 6400 16150 6700
 Wire Wire Line
-	8950 6250 8950 8750
+	8950 6250 8950 6550
 Wire Wire Line
-	8250 6250 8250 9850
+	8250 6250 8250 6550
 Wire Wire Line
-	10300 6250 10300 9900
+	10300 6250 10300 6550
 Wire Wire Line
-	9600 6250 9600 8750
+	9600 6250 9600 6550
 Text GLabel 8250 6250 1    50   Input ~ 0
 COL4
 Text GLabel 6300 6200 1    50   Input ~ 0
@@ -2801,8 +2801,6 @@ Wire Wire Line
 Connection ~ 1450 7500
 Wire Wire Line
 	1450 7500 1450 8300
-Connection ~ 1450 8300
-Connection ~ 2150 8300
 Connection ~ 2150 7500
 Wire Wire Line
 	2150 7500 2150 8300
@@ -2821,8 +2819,6 @@ Wire Wire Line
 Connection ~ 2850 7500
 Wire Wire Line
 	2850 7500 2850 6700
-Connection ~ 2850 8300
-Connection ~ 3550 8300
 Connection ~ 16150 6700
 Wire Wire Line
 	16150 6700 16150 7500
@@ -2835,8 +2831,40 @@ Wire Wire Line
 Connection ~ 16850 6700
 Wire Wire Line
 	16850 6700 16850 7500
-Connection ~ 16850 8300
-Connection ~ 16150 8300
-Connection ~ 15450 8300
-Connection ~ 14750 8300
+Connection ~ 8250 6550
+Wire Wire Line
+	8250 6550 8250 7350
+Connection ~ 8250 7350
+Wire Wire Line
+	8250 7350 8250 8150
+Connection ~ 8250 8150
+Wire Wire Line
+	8250 8150 8250 9850
+Connection ~ 8950 8150
+Wire Wire Line
+	8950 8150 8950 8750
+Connection ~ 9600 8150
+Wire Wire Line
+	9600 8150 9600 8750
+Connection ~ 10300 8150
+Wire Wire Line
+	10300 8150 10300 9900
+Connection ~ 10300 7350
+Wire Wire Line
+	10300 7350 10300 8150
+Connection ~ 9600 7350
+Wire Wire Line
+	9600 7350 9600 8150
+Connection ~ 8950 7350
+Wire Wire Line
+	8950 7350 8950 8150
+Connection ~ 8950 6550
+Wire Wire Line
+	8950 6550 8950 7350
+Connection ~ 9600 6550
+Wire Wire Line
+	9600 6550 9600 7350
+Connection ~ 10300 6550
+Wire Wire Line
+	10300 6550 10300 7350
 $EndSCHEMATC
