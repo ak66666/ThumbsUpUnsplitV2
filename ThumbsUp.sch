@@ -282,7 +282,7 @@ D+
 Text GLabel 1750 3350 0    50   Input ~ 0
 D-
 $Comp
-L random-keyboard-parts:Molex-0548190589 USB1
+L ThumbsUp-rescue:Molex-0548190589-random-keyboard-parts USB1
 U 1 1 616D7FEE
 P 7000 2350
 F 0 "USB1" V 7537 2317 60  0000 C CNN
@@ -528,7 +528,7 @@ F 3 "" H 2550 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX1
 U 1 1 61FB95FB
 P 1300 6750
 F 0 "MX1" H 1333 6973 60  0000 C CNN
@@ -539,7 +539,7 @@ F 3 "" H 675 6725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX4
 U 1 1 61FB9608
 P 2000 6750
 F 0 "MX4" H 2033 6973 60  0000 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 1375 6725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX2
 U 1 1 61FB9615
 P 1300 7550
 F 0 "MX2" H 1333 7773 60  0000 C CNN
@@ -561,7 +561,7 @@ F 3 "" H 675 7525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX7
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX7
 U 1 1 61FB962F
 P 2700 6750
 F 0 "MX7" H 2733 6973 60  0000 C CNN
@@ -572,7 +572,7 @@ F 3 "" H 2075 6725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX11
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX11
 U 1 1 61FB963C
 P 3400 6750
 F 0 "MX11" H 3433 6973 60  0000 C CNN
@@ -583,7 +583,7 @@ F 3 "" H 2775 6725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX8
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX8
 U 1 1 61FB9649
 P 2700 7550
 F 0 "MX8" H 2733 7773 60  0000 C CNN
@@ -594,7 +594,7 @@ F 3 "" H 2075 7525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX12
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX12
 U 1 1 61FB9656
 P 3400 7550
 F 0 "MX12" H 3433 7773 60  0000 C CNN
@@ -605,7 +605,7 @@ F 3 "" H 2775 7525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX3
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX3
 U 1 1 61FB9663
 P 1300 8350
 F 0 "MX3" H 1333 8573 60  0000 C CNN
@@ -616,7 +616,7 @@ F 3 "" H 675 8325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX6
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX6
 U 1 1 61FB9670
 P 2000 8350
 F 0 "MX6" H 2033 8573 60  0000 C CNN
@@ -627,7 +627,7 @@ F 3 "" H 1375 8325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX9
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX9
 U 1 1 61FB9696
 P 2700 8350
 F 0 "MX9" H 2733 8573 60  0000 C CNN
@@ -638,7 +638,7 @@ F 3 "" H 2075 8325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX13
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX13
 U 1 1 61FB96A3
 P 3400 8350
 F 0 "MX13" H 3433 8573 60  0000 C CNN
@@ -649,7 +649,7 @@ F 3 "" H 2775 8325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX10
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX10
 U 1 1 61FB96B0
 P 2700 9150
 F 0 "MX10" H 2733 9373 60  0000 C CNN
@@ -693,7 +693,7 @@ F 3 "~" V 8650 8450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX21
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX21
 U 1 1 62015099
 P 8800 8200
 F 0 "MX21" H 8833 8423 60  0000 C CNN
@@ -717,7 +717,7 @@ F 3 "~" V 7950 8450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX17
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX17
 U 1 1 6201508C
 P 8100 8200
 F 0 "MX17" H 8133 8423 60  0000 C CNN
@@ -741,7 +741,7 @@ F 3 "~" V 8650 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX20
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX20
 U 1 1 6201507F
 P 8800 7400
 F 0 "MX20" H 8833 7623 60  0000 C CNN
@@ -765,7 +765,7 @@ F 3 "~" V 7950 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX16
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX16
 U 1 1 62015072
 P 8100 7400
 F 0 "MX16" H 8133 7623 60  0000 C CNN
@@ -789,7 +789,7 @@ F 3 "~" V 8650 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX19
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX19
 U 1 1 62015065
 P 8800 6600
 F 0 "MX19" H 8833 6823 60  0000 C CNN
@@ -813,7 +813,7 @@ F 3 "~" V 7950 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX15
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX15
 U 1 1 62015058
 P 8100 6600
 F 0 "MX15" H 8133 6823 60  0000 C CNN
@@ -854,7 +854,7 @@ F 3 "~" V 10000 8450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX29
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX29
 U 1 1 61713053
 P 10150 8200
 F 0 "MX29" H 10183 8423 60  0000 C CNN
@@ -878,7 +878,7 @@ F 3 "~" V 9300 8450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX25
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX25
 U 1 1 61713046
 P 9450 8200
 F 0 "MX25" H 9483 8423 60  0000 C CNN
@@ -902,7 +902,7 @@ F 3 "~" V 10000 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX28
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX28
 U 1 1 616E98B3
 P 10150 7400
 F 0 "MX28" H 10183 7623 60  0000 C CNN
@@ -926,7 +926,7 @@ F 3 "~" V 9300 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX24
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX24
 U 1 1 616E989E
 P 9450 7400
 F 0 "MX24" H 9483 7623 60  0000 C CNN
@@ -950,7 +950,7 @@ F 3 "~" V 10000 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX27
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX27
 U 1 1 616E6A1E
 P 10150 6600
 F 0 "MX27" H 10183 6823 60  0000 C CNN
@@ -974,7 +974,7 @@ F 3 "~" V 9300 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX23
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX23
 U 1 1 616E00A7
 P 9450 6600
 F 0 "MX23" H 9483 6823 60  0000 C CNN
@@ -1009,7 +1009,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6500 4050 7100
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX5
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX5
 U 1 1 61FB9622
 P 2000 7550
 F 0 "MX5" H 2033 7773 60  0000 C CNN
@@ -1428,7 +1428,7 @@ Connection ~ 7600 9200
 Wire Wire Line
 	7600 9200 7750 9200
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX42
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX42
 U 1 1 6261980F
 P 17000 6750
 F 0 "MX42" H 17033 6973 60  0000 C CNN
@@ -1439,7 +1439,7 @@ F 3 "" H 16375 6725 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX39
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX39
 U 1 1 62619815
 P 16300 6750
 F 0 "MX39" H 16333 6973 60  0000 C CNN
@@ -1450,7 +1450,7 @@ F 3 "" H 15675 6725 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX43
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX43
 U 1 1 6261981B
 P 17000 7550
 F 0 "MX43" H 17033 7773 60  0000 C CNN
@@ -1461,7 +1461,7 @@ F 3 "" H 16375 7525 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX35
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX35
 U 1 1 62619821
 P 15600 6750
 F 0 "MX35" H 15633 6973 60  0000 C CNN
@@ -1472,7 +1472,7 @@ F 3 "" H 14975 6725 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX31
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX31
 U 1 1 62619827
 P 14900 6750
 F 0 "MX31" H 14933 6973 60  0000 C CNN
@@ -1483,7 +1483,7 @@ F 3 "" H 14275 6725 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX36
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX36
 U 1 1 6261982D
 P 15600 7550
 F 0 "MX36" H 15633 7773 60  0000 C CNN
@@ -1494,7 +1494,7 @@ F 3 "" H 14975 7525 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX32
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX32
 U 1 1 62619833
 P 14900 7550
 F 0 "MX32" H 14933 7773 60  0000 C CNN
@@ -1505,7 +1505,7 @@ F 3 "" H 14275 7525 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX44
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX44
 U 1 1 62619839
 P 17000 8350
 F 0 "MX44" H 17033 8573 60  0000 C CNN
@@ -1516,7 +1516,7 @@ F 3 "" H 16375 8325 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX41
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX41
 U 1 1 6261983F
 P 16300 8350
 F 0 "MX41" H 16333 8573 60  0000 C CNN
@@ -1527,7 +1527,7 @@ F 3 "" H 15675 8325 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX37
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX37
 U 1 1 62619845
 P 15600 8350
 F 0 "MX37" H 15633 8573 60  0000 C CNN
@@ -1538,7 +1538,7 @@ F 3 "" H 14975 8325 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX33
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX33
 U 1 1 6261984B
 P 14900 8350
 F 0 "MX33" H 14933 8573 60  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 14275 8325 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX34
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX34
 U 1 1 6261985D
 P 14900 9150
 F 0 "MX34" H 14933 9373 60  0000 C CNN
@@ -1560,7 +1560,7 @@ F 3 "" H 14275 9125 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX38
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX38
 U 1 1 62619863
 P 15600 9150
 F 0 "MX38" H 15633 9373 60  0000 C CNN
@@ -1595,7 +1595,7 @@ Wire Wire Line
 Wire Wire Line
 	14250 6500 14250 7100
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX40
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX40
 U 1 1 6261988C
 P 16300 7550
 F 0 "MX40" H 16333 7773 60  0000 C CNN
@@ -2007,7 +2007,7 @@ Wire Wire Line
 	7750 9050 7750 9200
 Connection ~ 7750 9200
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX22
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX22
 U 1 1 62882FE4
 P 8850 11000
 F 0 "MX22" H 8883 11223 60  0000 C CNN
@@ -2018,7 +2018,7 @@ F 3 "" H 8225 10975 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX18
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX18
 U 1 1 62882FEA
 P 8150 11000
 F 0 "MX18" H 8183 11223 60  0000 C CNN
@@ -2071,7 +2071,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 10950 8700 10950
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX30
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX30
 U 1 1 62A1D5C7
 P 10600 11050
 F 0 "MX30" H 10633 11273 60  0000 C CNN
@@ -2082,7 +2082,7 @@ F 3 "" H 9975 11025 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX26
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX26
 U 1 1 62A1D5CD
 P 9900 11050
 F 0 "MX26" H 9933 11273 60  0000 C CNN
@@ -2389,7 +2389,7 @@ Wire Wire Line
 	2850 8850 2850 9100
 Connection ~ 6200 7000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX14
+L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX14
 U 1 1 61FB96BD
 P 3400 9150
 F 0 "MX14" H 3433 9373 60  0000 C CNN
@@ -2440,7 +2440,7 @@ Connection ~ 14750 7500
 Wire Wire Line
 	14750 7500 14750 8300
 $Comp
-L 52559-1233:52559-1233 J19
+L ThumbsUp-rescue:52559-1233-52559-1233 J19
 U 1 1 634DD7F1
 P 10900 3350
 F 0 "J19" H 11400 3615 50  0000 C CNN
