@@ -47,8 +47,6 @@ F 3 "~" H 4550 4350 50  0001 C CNN
 	1    4550 4350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4200 4350 4100 4350
 $Comp
 L Device:R_Small R2
 U 1 1 616B7A1A
@@ -381,17 +379,6 @@ Wire Wire Line
 NoConn ~ 2250 2550
 NoConn ~ 2050 2550
 $Comp
-L Device:C_Small C3
-U 1 1 61D27F3E
-P 1600 4450
-F 0 "C3" H 1692 4496 50  0000 L CNN
-F 1 "1uF" H 1692 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 4450 50  0001 C CNN
-F 3 "~" H 1600 4450 50  0001 C CNN
-	1    1600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR018
 U 1 1 61D515F6
 P 8550 2350
@@ -436,17 +423,6 @@ F 3 "" H 2900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
-U 1 1 61D6313F
-P 2000 5200
-F 0 "#PWR04" H 2000 5050 50  0001 C CNN
-F 1 "VCC" H 2017 5373 50  0000 C CNN
-F 2 "" H 2000 5200 50  0001 C CNN
-F 3 "" H 2000 5200 50  0001 C CNN
-	1    2000 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR01
 U 1 1 61D69604
 P 1600 4350
@@ -455,17 +431,6 @@ F 1 "+5V" H 1615 4523 50  0000 C CNN
 F 2 "" H 1600 4350 50  0001 C CNN
 F 3 "" H 1600 4350 50  0001 C CNN
 	1    1600 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 61D6A039
-P 1600 4550
-F 0 "#PWR02" H 1600 4300 50  0001 C CNN
-F 1 "GND" H 1605 4377 50  0000 C CNN
-F 2 "" H 1600 4550 50  0001 C CNN
-F 3 "" H 1600 4550 50  0001 C CNN
-	1    1600 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2009,27 +1974,25 @@ Connection ~ 7750 9200
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX22
 U 1 1 62882FE4
-P 8850 11000
-F 0 "MX22" H 8883 11223 60  0000 C CNN
-F 1 "SwLSHFT" H 8883 11149 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8225 10975 60  0001 C CNN
-F 3 "" H 8225 10975 60  0001 C CNN
-	1    8850 11000
+P 8200 11000
+F 0 "MX22" H 8233 11223 60  0000 C CNN
+F 1 "SwLSHFT" H 8233 11149 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7575 10975 60  0001 C CNN
+F 3 "" H 7575 10975 60  0001 C CNN
+	1    8200 11000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX18
 U 1 1 62882FEA
-P 8150 11000
-F 0 "MX18" H 8183 11223 60  0000 C CNN
-F 1 "SwLMOD" H 8183 11149 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional" H 7525 10975 60  0001 C CNN
-F 3 "" H 7525 10975 60  0001 C CNN
-	1    8150 11000
+P 8650 11000
+F 0 "MX18" H 8683 11223 60  0000 C CNN
+F 1 "SwLMOD" H 8683 11149 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 8025 10975 60  0001 C CNN
+F 3 "" H 8025 10975 60  0001 C CNN
+	1    8650 11000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 11200 8200 11150
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 628F3D37
@@ -2052,48 +2015,28 @@ F 3 "~" H 8350 10050 50  0001 C CNN
 	1    8350 10050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8250 10400 8000 10400
-Wire Wire Line
-	8000 10400 8000 10950
-Wire Wire Line
-	8350 10400 8350 11200
-Wire Wire Line
-	8350 11200 8200 11200
-Wire Wire Line
-	8450 10400 8450 11200
-Wire Wire Line
-	8450 11200 8900 11200
-Wire Wire Line
-	8900 11200 8900 11150
-Wire Wire Line
-	8550 10400 8550 10950
-Wire Wire Line
-	8550 10950 8700 10950
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX30
 U 1 1 62A1D5C7
-P 10600 11050
-F 0 "MX30" H 10633 11273 60  0000 C CNN
-F 1 "SwRMOD" H 10633 11199 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9975 11025 60  0001 C CNN
-F 3 "" H 9975 11025 60  0001 C CNN
-	1    10600 11050
+P 9950 11000
+F 0 "MX30" H 9983 11223 60  0000 C CNN
+F 1 "SwRMOD" H 9983 11149 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9325 10975 60  0001 C CNN
+F 3 "" H 9325 10975 60  0001 C CNN
+	1    9950 11000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L ThumbsUp-rescue:MX-NoLED-MX_Alps_Hybrid MX26
 U 1 1 62A1D5CD
-P 9900 11050
-F 0 "MX26" H 9933 11273 60  0000 C CNN
-F 1 "SwRSHFT" H 9933 11199 20  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9275 11025 60  0001 C CNN
-F 3 "" H 9275 11025 60  0001 C CNN
-	1    9900 11050
+P 10400 11000
+F 0 "MX26" H 10433 11223 60  0000 C CNN
+F 1 "SwRSHFT" H 10433 11149 20  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350_optional" H 9775 10975 60  0001 C CNN
+F 3 "" H 9775 10975 60  0001 C CNN
+	1    10400 11000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 11250 9950 11200
 $Comp
 L Connector:Conn_01x04_Female J5
 U 1 1 62A1D5D4
@@ -2116,24 +2059,6 @@ F 3 "~" H 10100 10100 50  0001 C CNN
 	1    10100 10100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10000 10450 9750 10450
-Wire Wire Line
-	9750 10450 9750 11000
-Wire Wire Line
-	10100 10450 10100 11250
-Wire Wire Line
-	10100 11250 9950 11250
-Wire Wire Line
-	10200 10450 10200 11250
-Wire Wire Line
-	10200 11250 10650 11250
-Wire Wire Line
-	10650 11250 10650 11200
-Wire Wire Line
-	10300 10450 10300 11000
-Wire Wire Line
-	10300 11000 10450 11000
 Wire Wire Line
 	7750 9200 8350 9200
 $Comp
@@ -2464,22 +2389,8 @@ Text GLabel 4200 3450 2    50   Input ~ 0
 SCL
 Text GLabel 4200 3550 2    50   Input ~ 0
 SDA
-Connection ~ 4200 4350
 Wire Wire Line
 	4650 4350 4750 4350
-Wire Wire Line
-	4450 4350 4200 4350
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 616A381E
-P 3600 3750
-F 0 "U1" H 3600 1861 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3600 1770 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 3750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 3750 50  0001 C CNN
-	1    3600 3750
-	1    0    0    -1  
-$EndComp
 Text GLabel 9550 4450 3    50   Input ~ 0
 SDA
 Text GLabel 9450 4450 3    50   Input ~ 0
@@ -2785,15 +2696,9 @@ NoConn ~ 10900 3650
 NoConn ~ 10900 3750
 NoConn ~ 10900 4050
 Wire Wire Line
-	3050 5550 3500 5550
-Connection ~ 3500 5550
-Wire Wire Line
-	3500 5550 3600 5550
-Wire Wire Line
 	3700 1550 3700 1950
 Wire Wire Line
 	3700 1950 3600 1950
-Connection ~ 3700 1950
 Wire Wire Line
 	1750 5550 2150 5550
 $Comp
@@ -2831,4 +2736,97 @@ GND-TOP
 Text GLabel 9350 3900 1    50   Input ~ 0
 GND-TOP
 NoConn ~ 9300 2750
+Connection ~ 3700 1950
+Connection ~ 3500 5550
+Wire Wire Line
+	3500 5550 3600 5550
+Wire Wire Line
+	3050 5550 3500 5550
+Connection ~ 4200 4350
+Wire Wire Line
+	4450 4350 4200 4350
+Wire Wire Line
+	4200 4350 4100 4350
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 616A381E
+P 3600 3750
+F 0 "U1" H 3600 1861 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3600 1770 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61D6A039
+P 1600 4550
+F 0 "#PWR02" H 1600 4300 50  0001 C CNN
+F 1 "GND" H 1605 4377 50  0000 C CNN
+F 2 "" H 1600 4550 50  0001 C CNN
+F 3 "" H 1600 4550 50  0001 C CNN
+	1    1600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 61D6313F
+P 2000 5200
+F 0 "#PWR04" H 2000 5050 50  0001 C CNN
+F 1 "VCC" H 2017 5373 50  0000 C CNN
+F 2 "" H 2000 5200 50  0001 C CNN
+F 3 "" H 2000 5200 50  0001 C CNN
+	1    2000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 61D27F3E
+P 1600 4450
+F 0 "C3" H 1692 4496 50  0000 L CNN
+F 1 "1uF" H 1692 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 4450 50  0001 C CNN
+F 3 "~" H 1600 4450 50  0001 C CNN
+	1    1600 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 10400 8050 10400
+Wire Wire Line
+	8050 10400 8050 10950
+Wire Wire Line
+	8250 11150 8350 11150
+Wire Wire Line
+	8350 11150 8350 10400
+Wire Wire Line
+	8500 10950 8450 10950
+Wire Wire Line
+	8450 10950 8450 10400
+Wire Wire Line
+	8700 11150 8900 11150
+Wire Wire Line
+	8900 11150 8900 10400
+Wire Wire Line
+	8900 10400 8550 10400
+Wire Wire Line
+	10000 11150 10100 11150
+Wire Wire Line
+	10100 11150 10100 10450
+Wire Wire Line
+	10250 10950 10200 10950
+Wire Wire Line
+	10200 10950 10200 10450
+Wire Wire Line
+	9800 10950 9800 10700
+Wire Wire Line
+	9800 10700 10000 10700
+Wire Wire Line
+	10000 10700 10000 10450
+Wire Wire Line
+	10450 11150 10550 11150
+Wire Wire Line
+	10550 11150 10550 10450
+Wire Wire Line
+	10550 10450 10300 10450
 $EndSCHEMATC
