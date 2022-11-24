@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 100)
+    (drawings 99)
     (tracks 1652)
     (zones 0)
     (modules 143)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -31411,7 +31411,6 @@
   )
 
   (gr_line (start 216.145042 83.423134) (end 217.532953 87.392227) (layer Edge.Cuts) (width 0.05) (tstamp 635558EF))
-  (gr_circle (center 150.2 86.45) (end 152 66.4) (layer F.SilkS) (width 0.12))
   (gr_text "Thumbs Up! by Sasha Karmanov\nOctober 28, 2022\nhttps://github.com/ak66666/ThumbsUpUnsplitV2" (at 146.15 360.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -33097,7 +33096,6 @@
   (segment (start 206.248 75.184) (end 202.850548 75.184) (width 0.254) (layer B.Cu) (net 128))
   (segment (start 202.850548 75.184) (end 199.644 78.390548) (width 0.254) (layer B.Cu) (net 128))
   (segment (start 199.644 78.390548) (end 199.644 87.976078) (width 0.254) (layer B.Cu) (net 128))
-  (segment (start 197.561362 95.161362) (end 197.561362 96.059576) (width 0.25) (layer B.Cu) (net 131) (status 30))
   (segment (start 212.514666 84.925998) (end 212.336119 84.925998) (width 0.25) (layer B.Cu) (net 129) (status 30))
   (segment (start 205.703111 77.433111) (end 202.589079 77.433111) (width 0.254) (layer B.Cu) (net 129) (status 20))
   (segment (start 212.336119 84.925998) (end 212.336119 84.066119) (width 0.254) (layer B.Cu) (net 129) (status 30))
@@ -33113,6 +33111,7 @@
   (segment (start 213.07221 89.040686) (end 213.07221 85.05621) (width 0.254) (layer F.Cu) (net 130))
   (segment (start 200.604049 79.702011) (end 194.08731 86.21875) (width 0.254) (layer F.Cu) (net 130))
   (segment (start 207.718011 79.702011) (end 200.604049 79.702011) (width 0.254) (layer F.Cu) (net 130))
+  (segment (start 197.561362 95.161362) (end 197.561362 96.059576) (width 0.25) (layer B.Cu) (net 131) (status 30))
   (segment (start 197.561362 88.595362) (end 197.561362 96.059576) (width 0.254) (layer B.Cu) (net 131) (status 20))
   (segment (start 193.548 84.582) (end 197.561362 88.595362) (width 0.254) (layer B.Cu) (net 131))
   (segment (start 187.814322 88.566689) (end 191.799011 84.582) (width 0.254) (layer B.Cu) (net 131) (status 10))
