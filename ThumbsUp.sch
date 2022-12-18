@@ -2381,9 +2381,9 @@ F 9 "52559-1233" H 11750 2750 50  0001 L CNN "Manufacturer_Part_Number"
 	1    10900 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 10900 3850 0    50   Input ~ 0
+Text GLabel 10500 3850 0    50   Input ~ 0
 SCL-TOP
-Text GLabel 11900 3850 2    50   Input ~ 0
+Text GLabel 12350 3850 2    50   Input ~ 0
 SDA-TOP
 Text GLabel 4200 3450 2    50   Input ~ 0
 SCL
@@ -2829,4 +2829,40 @@ Wire Wire Line
 	10550 11150 10550 10450
 Wire Wire Line
 	10550 10450 10300 10450
+$Comp
+L Device:R R6
+U 1 1 63A12574
+P 12150 3700
+F 0 "R6" H 12220 3746 50  0000 L CNN
+F 1 "5.1K" H 12220 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 12080 3700 50  0001 C CNN
+F 3 "~" H 12150 3700 50  0001 C CNN
+	1    12150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 63A138DC
+P 10650 3700
+F 0 "R5" H 10720 3746 50  0000 L CNN
+F 1 "5.1K" H 10720 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10580 3700 50  0001 C CNN
+F 3 "~" H 10650 3700 50  0001 C CNN
+	1    10650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3850 10650 3850
+Connection ~ 10650 3850
+Wire Wire Line
+	10650 3850 10900 3850
+Wire Wire Line
+	11900 3850 12150 3850
+Connection ~ 12150 3850
+Wire Wire Line
+	12150 3850 12350 3850
+Text GLabel 12150 3550 1    50   Input ~ 0
+VCC-TOP
+Text GLabel 10650 3550 1    50   Input ~ 0
+VCC-TOP
 $EndSCHEMATC
